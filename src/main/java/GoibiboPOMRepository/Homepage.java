@@ -53,15 +53,9 @@ public class Homepage {
 		public void clkOnDoneBtn() throws InterruptedException
 		{
 			Done.click();
-//			Thread.sleep(2000);
-//			Assert.assertTrue(month1.contains(getTxtDepartureDate()), "validation is failed");
-//			System.out.println("departure date validated");
 			
 		}
-//		public void TxtDepartureDate()
-//		{
-//			 txtDepartureDate.getText();
-//		}
+
 		public String getTxtDepartureDate() {
 			return txtDepartureDate.getText();
 		}
@@ -76,6 +70,7 @@ public class Homepage {
 		{
 			travellersDone.click();
 		}
+		
 		public void TxtDepartureDate(String date, String month, String year)
 		{
 //			"January 2023"
@@ -83,7 +78,7 @@ public class Homepage {
 			String actualDate = txtDepartureDate.getText();
 			String expDate = date+" "+month.substring(0, 3)+"'"+year.substring(2);
 			Assert.assertTrue(expDate.contains(actualDate), "validation is failed");
-			System.out.println("validation passed");
+			System.out.println(" departure date validation passed");
 			System.out.println(actualDate);
 			System.out.println(expDate);
 					}
@@ -95,7 +90,7 @@ public class Homepage {
 			String actualDate1 = txtReturnDate.getText();
 			String expDate1 = date+" "+month.substring(0, 3)+"'"+year.substring(2);
 			Assert.assertTrue(expDate1.contains(actualDate1), "validation is failed");
-			System.out.println("validation passed");
+			System.out.println("return date validation passed");
 			System.out.println(actualDate1);
 			System.out.println(expDate1);
 					}

@@ -18,8 +18,7 @@ public class GoibiboDate extends GoibiboBaseClass{
 		homepage.clkOnDeparture();
 		javautility.date(driver,"January 2023","19");
 		
-//		homepage.clkOnDoneBtn();
-//		Thread.sleep(3000);
+
 		homepage.clkOnReturn();
 		javautility.returnDate(driver,"February 2023","21");
 		homepage.clkOnDoneBtn();

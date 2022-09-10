@@ -20,12 +20,7 @@ public class GoibiboJavaUtility {
 				
 			}
 		}
-		Thread.sleep(2000);
-//		Assert.assertTrue(month1.contains(homepage.getTxtDepartureDate()), "validation is failed");
-//		System.out.println(homepage.getTxtDepartureDate());
-//		"January 2023"
-//		"19 Jan'23"
-		//Substring
+		
 
 	}
 	public void returnDate(WebDriver driver,String month2,String day2) {
