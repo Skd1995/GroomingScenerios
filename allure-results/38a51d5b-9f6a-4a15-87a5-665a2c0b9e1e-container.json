@@ -1,0 +1,1 @@
+{"uuid":"38a51d5b-9f6a-4a15-87a5-665a2c0b9e1e","name":"com.makeMyTripScenerios.oneWayTrip","children":["06f0e063-ad7f-4984-8459-b66ff06ccdcf"],"befores":[{"name":"browserSetup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1662457813359,"stop":1662457822359}],"afters":[],"start":1662457813302,"stop":1662457829113}

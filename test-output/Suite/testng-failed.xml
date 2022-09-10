@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.ArrayTest.a">
+        <methods>
+          <include name="beforeMethod1Test"/>
+          <include name="beforesuite1Test"/>
+          <include name="afterClass1Test"/>
+          <include name="a2"/>
+          <include name="beforeclass1Test"/>
+          <include name="a1"/>
+          <include name="aftersuite1Test"/>
+          <include name="afterMethod1Test"/>
+        </methods>
+      </class> <!-- com.ArrayTest.a -->
+      <class name="com.ArrayTest.b">
+        <methods>
+          <include name="beforeMethod1Test"/>
+          <include name="beforesuite1Test"/>
+          <include name="afterClass1Test"/>
+          <include name="b1"/>
+          <include name="beforeclass1Test"/>
+          <include name="b2"/>
+          <include name="aftersuite1Test"/>
+          <include name="afterMethod1Test"/>
+        </methods>
+      </class> <!-- com.ArrayTest.b -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
