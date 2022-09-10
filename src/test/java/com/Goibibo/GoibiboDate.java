@@ -26,6 +26,7 @@ public class GoibiboDate extends GoibiboBaseClass{
 		
 		homepage.clkOntravellersDoneBtn();
 		homepage.TxtDepartureDate("19", "January", "2023");
+		homepage.TxtReturnDate("21", "February", "2023");
 	}
 
 }

@@ -28,6 +28,9 @@ public class Homepage {
 	@FindBy(xpath = "//span[text()='Departure']/parent::div/p")
 	private WebElement txtDepartureDate;
 	
+	@FindBy(xpath = "//span[text()='Return']/parent::div/p")
+	private WebElement txtReturnDate;
+	
 	
 	//constructor initialize
 		public Homepage(WebDriver driver)
@@ -83,5 +86,17 @@ public class Homepage {
 			System.out.println("validation passed");
 			System.out.println(actualDate);
 			System.out.println(expDate);
+					}
+		
+		public void TxtReturnDate(String date, String month, String year)
+		{
+//			"February 2023"
+//			"21 Feb'23"
+			String actualDate1 = txtReturnDate.getText();
+			String expDate1 = date+" "+month.substring(0, 3)+"'"+year.substring(2);
+			Assert.assertTrue(expDate1.contains(actualDate1), "validation is failed");
+			System.out.println("validation passed");
+			System.out.println(actualDate1);
+			System.out.println(expDate1);
 					}
 }
