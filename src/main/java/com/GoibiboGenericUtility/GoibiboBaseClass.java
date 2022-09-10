@@ -17,9 +17,6 @@ public class GoibiboBaseClass {
 	static WebDriverWait wait;
 	public JavascriptExecutor js;
 
-
-
-
 	@BeforeClass
 	public void browserSetup() {
 
